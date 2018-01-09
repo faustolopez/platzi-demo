@@ -19,6 +19,6 @@ deployment:
       - sh deployments/qa.sh
   prod:
     branch: master
-    owner: elbuo8
+    owner: faustolopez
     commands:
       - sh deployments/prod.sh
