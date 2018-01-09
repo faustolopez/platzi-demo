@@ -16,7 +16,7 @@
     {
       "type": "shell",
       "inline": [
-        "git clone https://github.com/elbuo8/platzi-demo.git",
+        "git clone https://github.com/faustolopez/platzi-demo.git",
         "cd platzi-demo",
         "docker build -t platzi .",
         "docker run -d -p 3000:3000 platzi"
