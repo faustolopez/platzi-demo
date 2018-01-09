@@ -17,8 +17,3 @@ deployment:
     branch: /feature_.*/
     commands:
       - sh deployments/qa.sh
-  prod:
-    branch: master
-    owner: faustolopez
-    commands:
-      - sh deployments/prod.sh
